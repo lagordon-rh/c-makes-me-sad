@@ -7,7 +7,7 @@ main()
 	int c, n1, nw, nc, state;
 
 	state = OUT;
-	n1 = nw = nc;
+	n1 = nw = nc = 0;
 	while ((c = getchar()) != EOF) {
 		++nc;
 		if (c == '\n')
